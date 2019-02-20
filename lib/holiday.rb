@@ -54,7 +54,10 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
  holiday_hash.each do |season, holiday|
+<<<<<<< HEAD
   puts "#{season.capitalize}:"
+=======
+>>>>>>> 972761c933faae9be9942e4193bd71478a6e0392
 
     holiday.each do |holiday, supplies|
 
@@ -67,7 +70,11 @@ def all_supplies_in_holidays(holiday_hash)
       final_holiday_array = split_holiday_array.join(" ")
       final_supplies_array = supplies.join(", ")
 
+<<<<<<< HEAD
 
+=======
+      puts "#{season.capitalize}:"
+>>>>>>> 972761c933faae9be9942e4193bd71478a6e0392
       puts "  #{final_holiday_array}: #{final_supplies_array}"
     end
   end
